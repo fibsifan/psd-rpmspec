@@ -26,7 +26,7 @@ calls and speed-up browsers.
 make install DESTDIR=%{buildroot}
 
 %post
-if [ $1 -eq 1 ]; then 
+if [ $1 -eq 1 ]; then
  setsebool -P rsync_full_access 1 >/dev/null 2>&1 || :
 fi
 %systemd_post psd.service
