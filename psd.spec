@@ -8,6 +8,7 @@ Source0:        %{url}/archive/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 BuildArch:      noarch
 BuildRequires:  systemd rsync
 Requires:       rsync
+BuildRequires:  make
 Requires(post): systemd
 Requires(preun): systemd
 Requires(postun): systemd
