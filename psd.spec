@@ -23,7 +23,7 @@ calls and speed-up browsers.
 %make_build
 
 %install
-make install DESTDIR=%{buildroot}
+%make_install
 
 %post
 if [ $1 -eq 1 ]; then
