@@ -1,5 +1,5 @@
 Name:           profile-sync-daemon 
-Version:        6.47
+Version:        6.48
 Release:        1%{?dist}
 Summary:        Offload browser profiles to RAM for speed and wear reduction
 License:        MIT
@@ -51,6 +51,9 @@ fi
 %{_datadir}/psd/*
 
 %changelog
+* Thu Nov 03 2022 Johannes Ballmann <copr@jball.de>
+- Update to 6.48
+
 * Sat Feb 27 2021 Johannes Ballmann <copr@jball.de>
 - Update to 6.44
 
