@@ -22,6 +22,8 @@ browser's profile in tmpfs and to periodically sync it back to your physical
 disc (HDD/SSD). This is accomplished via a symlinking step and an innovative
 use of rsync to maintain back-up and synchronization between the two. One of
 the major design goals of psd is a completely transparent user experience.
+
+This package is a copy of fedoras packaged version
  
  
 %prep
@@ -59,4 +61,5 @@ the major design goals of psd is a completely transparent user experience.
  
  
 %changelog
-%autochangelog
+* Sat Nov 05 2022 Johannes Ballmann <copr@jball.de>
+- Release without autochangelog
