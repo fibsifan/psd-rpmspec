@@ -2,7 +2,7 @@
  
 Name: profile-sync-daemon
 Version: 6.48
-Release: 1%{dist}
+Release: 1%{?dist}
 Summary: Symlinks and syncs browser profile dirs to RAM thus reducing HDD/SDD calls
 BuildArch: noarch
  
