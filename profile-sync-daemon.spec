@@ -1,7 +1,7 @@
 %global shortname psd
  
 Name: profile-sync-daemon
-Version: 6.48
+Version: 6.50
 Release: 1%{?dist}
 Summary: Symlinks and syncs browser profile dirs to RAM thus reducing HDD/SDD calls
 BuildArch: noarch
